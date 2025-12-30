@@ -1,0 +1,47 @@
+Vercel CLI 50.1.3
+Retrieving project…
+Deploying bantangs-projects/diagnosis-system
+Uploading [--------------------] (0.0B/2.8KB)
+Uploading [===================-] (2.7KB/2.8KB)
+Uploading [====================] (2.8KB/2.8KB)
+Inspect: https://vercel.com/bantangs-projects/diagnosis-system/DgQiWzMhqssrw5NQNRYVxh5t2fQt [2s]
+Production: https://diagnosis-system-klfw02iyx-bantangs-projects.vercel.app [2s]
+https://diagnosis-system-klfw02iyx-bantangs-projects.vercel.appQueued...
+Queued...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 58 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 50.1.3
+Building: Installing dependencies...
+Building: added 530 packages in 16s
+Building: 160 packages are looking for funding
+Building: run `npm fund` for details
+Building: Detected Next.js version: 16.1.1
+Building: Running "npm run build"
+Building: > diagnosis-system@0.1.0 build
+Building: > next build
+Building: Attention: Next.js now collects completely anonymous telemetry regarding usage.
+Building: This information is used to shape Next.js' roadmap and prioritize features.
+Building: You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+Building: https://nextjs.org/telemetry
+Building: ▲ Next.js 16.1.1 (Turbopack)
+Building: - Environments: .env
+Building: - Experiments (use with caution):
+Building: · serverActions
+Building: Creating an optimized production build ...
+Building: ✓ Compiled successfully in 10.4s
+Building: Running TypeScript ...
+Building: Failed to compile.
+Building: ./lib/prisma.ts:1:10
+Building: Type error: Module '"@prisma/client"' has no exported member 'PrismaClient'.
+Building: > 1 | import { PrismaClient } from '@prisma/client'
+Building: |          ^
+Building: 2 |
+Building: 3 | const prismaClientSingleton = () => {
+Building: 4 |   return new PrismaClient()
+Building: Next.js build worker exited with code: 1 and signal: null
+Building: Error: Command "npm run build" exited with 1
+Error: Command "npm run build" exited with 1
